@@ -1,2 +1,9 @@
-# AISnakeGame
-Utilizing Reinforcement Learning (specifically Deep Q-Learning (DQN)) through a PyTorch implementation to develop an AI agent capable of mastering the classic retro game Snake
+# AI Agent vs. Snake (Retro Arcade)
+Utilizing Reinforcement Learning (specifically Deep Q-Learning (DQN)) through a PyTorch implementation, I developed an AI agent capable of mastering the classic retro arcade game Snake. The primary objective of the project was to train and develop an impressive AI agent capable of maximizing the score a player can earn by collecting pellets in the game arena without a collision from the user. In order to complete this objective, the snake was trained to learn optimal movement strategies which prioritized avoiding wall/self collisions and greedily collecting food to maximize score. With each given iteration of the game, the snake AI agent interacted with the game environment with the sole objective of maximizing a predetermined cumulative reward over time.
+
+Both the AI agent and the game environment were custom-built in the Python coding language and through the implementation of several existing Python libraries designed for game and AI creation. The primary purpose I had for the project was to develop my foundational understanding of Machine Learning and applying it to solve a clear problem. Snake, a game which provides the user with easy-to-learn controls and a tangible success metric (its score), seemed to be the perfect opportunity and challenge for me to uncover how the game could be beaten using AI. As a whole, this side-project is not only a huge milestone in my understanding of AI/ML technologies, but a love letter to the passion I had for video games growing up as well.
+
+# How to run the Program
+1. Pull the repository locally and navigate to the "snake-game" directory
+2. Within a terminal or CLI, run "python agent.py" whilst in the "snake-game" directory or "python ABSOLUTE/PATH/TO/snake-game/agent.py"
+3. Watch your snake learn and grow into the best player!
