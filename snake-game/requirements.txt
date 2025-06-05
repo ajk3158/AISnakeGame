@@ -1,0 +1,10 @@
+torch
+numpy
+gym
+gymnasium
+pygame
+IPython
+matplotlib
+stable_baselines3
+# Must also install stable_baselines3[extra]
+shimmy
